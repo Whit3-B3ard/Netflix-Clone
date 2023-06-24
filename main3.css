@@ -370,5 +370,7 @@ a {
   z-index: 3;
   text-decoration: none;
   color: inherit;
-
+}
+a:visited {
+  text-decoration: none;
 }
