@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100vw;
+  height: 100vh;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  /* height: 60%;
+  width: 60%; */
+  align-items: center;
+  justify-content: center;
+  /* position: absolute;
+  top: 40%;
+  left: 40%; */
+}
+p {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+.users {
+  width: 100%;
+  gap: 3rem;
+  display: flex;
+}
+img {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 8px;
+  
+}
+h5 {
+  margin-top: 0.8rem;
+  color: #808080;
+  font-size: 2rem;
+  transition: 0.5s;
+  margin-bottom: 4rem;
+}
+.olha, .abraham, .kids {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+
+}
+.abraham:hover h5 {
+  color: white;
+}
+.abraham:hover img {
+  border: 3px solid white;
+}
+.olha:hover h5 {
+  color: white;
+}
+.olha:hover img {
+  border: 3px solid white;
+}
+.kids:hover h5 {
+  color: white;
+}
+.kids:hover img {
+  border: 3px solid white;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+button {
+padding: 1.2rem 3rem;
+font-size: 1.5rem;
+background-color: black;
+color: #808080;
+border: 2px solid #808080;
+cursor: pointer;
+}
+.profiles {
+  padding: 3rem 3rem;
+
+}
+button:hover {
+  color: white;
+  border-color: white;
+}
